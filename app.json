@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Watermelon-Supplier",
+    "slug": "Watermelon-Supplier",
+    "version": "1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/watermelon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/watermelon_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1F9CEF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.watermelon.supplier"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/watermelon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.watermelon.supplier"
+    },
+    "web": {
+      "favicon": "./assets/images/watermelon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f65f44f0-d36b-455b-86d3-5c560394ec3e"
+      }
+    }
+  }
+}

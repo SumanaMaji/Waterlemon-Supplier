@@ -1,0 +1,17 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace /Users/deepaksingh/Desktop/projects/reactnative/Waterlemon-Supplier/ios/WatermelonSupplier.xcworkspace -configuration Debug -scheme WatermelonSupplier -destination id=6D9E0144-E0CE-4998-A5EB-EECA1AEBB70F
+
+User defaults from command line:
+    IDEPackageSupportUseBuiltinSCM = YES
+
+note: Using new build system
+note: Planning
+Analyze workspace
+
+Create build description
+Build description signature: bae574324f8653a140c92063b8d0c87a
+Build description path: /Users/deepaksingh/Library/Developer/Xcode/DerivedData/WatermelonSupplier-eotczomnbjfgxgfluaiaptmhfwqa/Build/Intermediates.noindex/XCBuildData/bae574324f8653a140c92063b8d0c87a-desc.xcbuild
+
+note: Build preparation complete
+note: Building targets in dependency order
+/Users/deepaksingh/Desktop/projects/reactnative/Waterlemon-Supplier/ios/WatermelonSupplier.xcodeproj: error: The linked library 'libPods-WatermelonSupplier.a' is missing one or more architectures required by this target: arm64. (in target 'WatermelonSupplier' from project 'WatermelonSupplier')
